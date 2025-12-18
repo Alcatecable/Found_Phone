@@ -1,0 +1,314 @@
+{
+  "id": "the-affair-discovery",
+  "title": "The Affair Discovery",
+  "conflict": "Husband discovers his wife of 13 years has been having a physical affair with a married coworker at the gym",
+  "characters": [],
+  "conversations": [
+    {
+      "name": "Wife",
+      "messages": [
+        {
+          "text": "Hey, we need to talk",
+          "timestamp": "2025-12-18T04:08:15.205Z",
+          "delay": 3.9224127234093005
+        },
+        {
+          "text": "I need to tell you something",
+          "timestamp": "2025-12-18T04:08:19.778Z",
+          "delay": 8.495502105726843
+        },
+        {
+          "text": "The day after our anniversary, there's something I've been hiding",
+          "timestamp": "2025-12-18T04:08:23.980Z",
+          "delay": 12.697461513365813
+        },
+        {
+          "text": "John... we weren't just friends",
+          "timestamp": "2025-12-18T04:08:32.097Z",
+          "delay": 20.81417837526893
+        },
+        {
+          "text": "I lied to you",
+          "timestamp": "2025-12-18T04:08:36.761Z",
+          "delay": 25.478191101727482
+        },
+        {
+          "text": "We had physical contact. Many times",
+          "timestamp": "2025-12-18T04:08:42.787Z",
+          "delay": 31.504708937871474
+        },
+        {
+          "text": "In his car while I was at work",
+          "timestamp": "2025-12-18T04:08:47.636Z",
+          "delay": 36.35351200242209
+        },
+        {
+          "text": "I'm so sorry. I can't keep lying",
+          "timestamp": "2025-12-18T04:08:54.364Z",
+          "delay": 43.08108455342122
+        },
+        {
+          "text": "I wasn't thinking clearly. I was so lonely",
+          "timestamp": "2025-12-18T04:08:57.516Z",
+          "delay": 46.23375118930788
+        },
+        {
+          "text": "I don't know... many times. We wore protection though",
+          "timestamp": "2025-12-18T04:09:06.763Z",
+          "delay": 55.48074158996485
+        },
+        {
+          "text": "I couldn't lie anymore. It wasn't fair to him",
+          "timestamp": "2025-12-18T04:09:16.508Z",
+          "delay": 65.22527592234923
+        },
+        {
+          "text": "Maybe that's what I deserve",
+          "timestamp": "2025-12-18T04:09:21.378Z",
+          "delay": 70.09528390840998
+        },
+        {
+          "text": "Those are old messages",
+          "timestamp": "2025-12-18T04:09:34.181Z",
+          "delay": 82.89824954917822
+        },
+        {
+          "text": "I stopped seeing him after that",
+          "timestamp": "2025-12-18T04:09:41.708Z",
+          "delay": 90.4251707633251
+        },
+        {
+          "text": "I... I was confused",
+          "timestamp": "2025-12-18T04:09:46.835Z",
+          "delay": 95.55224549747918
+        },
+        {
+          "text": "You don't understand how lonely I was",
+          "timestamp": "2025-12-18T04:09:49.241Z",
+          "delay": 97.95880776217504
+        },
+        {
+          "text": "You were too focused on work. You weren't there for me",
+          "timestamp": "2025-12-18T04:09:51.789Z",
+          "delay": 100.50644943054577
+        },
+        {
+          "text": "I know but emotionally I needed something",
+          "timestamp": "2025-12-18T04:09:58.807Z",
+          "delay": 107.52481906613629
+        },
+        {
+          "text": "I never wanted to hurt you",
+          "timestamp": "2025-12-18T04:10:06.911Z",
+          "delay": 115.62804092048889
+        },
+        {
+          "text": "Maybe if you had been more present, this wouldn't have happened",
+          "timestamp": "2025-12-18T04:10:10.805Z",
+          "delay": 119.52231051459263
+        },
+        {
+          "text": "Just for me",
+          "timestamp": "2025-12-18T04:10:17.392Z",
+          "delay": 126.10963746440973
+        },
+        {
+          "text": "You're being unfair",
+          "timestamp": "2025-12-18T04:10:24.829Z",
+          "delay": 133.54607895450465
+        },
+        {
+          "text": "I needed that time",
+          "timestamp": "2025-12-18T04:10:31.094Z",
+          "delay": 139.81172714615073
+        },
+        {
+          "text": "No. Well... yes. But not the way you're thinking",
+          "timestamp": "2025-12-18T04:10:37.609Z",
+          "delay": 146.32689582921418
+        },
+        {
+          "text": "The therapist says I need to understand my feelings",
+          "timestamp": "2025-12-18T04:10:43.257Z",
+          "delay": 151.97487551411015
+        },
+        {
+          "text": "I felt unsafe in our marriage",
+          "timestamp": "2025-12-18T04:10:47.493Z",
+          "delay": 156.2103745039633
+        },
+        {
+          "text": "That's why I sought comfort elsewhere",
+          "timestamp": "2025-12-18T04:10:49.541Z",
+          "delay": 158.25843476895784
+        },
+        {
+          "text": "I know and I'm sorry",
+          "timestamp": "2025-12-18T04:10:57.119Z",
+          "delay": 165.83652381218494
+        },
+        {
+          "text": "But you have to understand what I was going through",
+          "timestamp": "2025-12-18T04:11:01.359Z",
+          "delay": 170.07642013426425
+        },
+        {
+          "text": "I'm trying to work on us",
+          "timestamp": "2025-12-18T04:11:08.844Z",
+          "delay": 177.56195106128195
+        },
+        {
+          "text": "I love you. I love our family",
+          "timestamp": "2025-12-18T04:11:13.401Z",
+          "delay": 182.11825970978765
+        },
+        {
+          "text": "I put my rings back on. I'm committed to fixing this",
+          "timestamp": "2025-12-18T04:11:17.212Z",
+          "delay": 185.9294961788718
+        },
+        {
+          "text": "I blocked John on everything. Open device policy. I'm trying",
+          "timestamp": "2025-12-18T04:11:24.642Z",
+          "delay": 193.359097622483
+        },
+        {
+          "text": "This is different",
+          "timestamp": "2025-12-18T04:11:32.171Z",
+          "delay": 200.8887965326338
+        }
+      ]
+    },
+    {
+      "name": "OOP",
+      "messages": [
+        {
+          "text": "What is it? You're scaring me",
+          "timestamp": "2025-12-18T04:08:28.658Z",
+          "delay": 17.375913475630522
+        },
+        {
+          "text": "What do you mean lied?",
+          "timestamp": "2025-12-18T04:08:40.118Z",
+          "delay": 28.835580163764238
+        },
+        {
+          "text": "You're joking right?",
+          "timestamp": "2025-12-18T04:08:50.455Z",
+          "delay": 39.172074830218925
+        },
+        {
+          "text": "How many times?",
+          "timestamp": "2025-12-18T04:09:02.338Z",
+          "delay": 51.05527563869821
+        },
+        {
+          "text": "I found messages between you and John",
+          "timestamp": "2025-12-18T04:09:26.734Z",
+          "delay": 75.45155526985735
+        },
+        {
+          "text": "He's telling you to lie to me about how many times",
+          "timestamp": "2025-12-18T04:09:31.249Z",
+          "delay": 79.96671120776332
+        },
+        {
+          "text": "From April? That's just a few months ago",
+          "timestamp": "2025-12-18T04:09:37.735Z",
+          "delay": 86.45286508791824
+        },
+        {
+          "text": "So you kept seeing him after June too?",
+          "timestamp": "2025-12-18T04:09:44.508Z",
+          "delay": 93.22540188948007
+        },
+        {
+          "text": "I was SAHD taking care of 3 kids including one with cerebral palsy",
+          "timestamp": "2025-12-18T04:09:55.071Z",
+          "delay": 103.78876041008066
+        },
+        {
+          "text": "So you got it from a married man? How does that make sense?",
+          "timestamp": "2025-12-18T04:10:02.771Z",
+          "delay": 111.48868364434783
+        },
+        {
+          "text": "You got a breast augmentation and tummy tuck. For what?",
+          "timestamp": "2025-12-18T04:10:15.159Z",
+          "delay": 123.87623712845571
+        },
+        {
+          "text": "Or for John?",
+          "timestamp": "2025-12-18T04:10:20.125Z",
+          "delay": 128.8423898097801
+        },
+        {
+          "text": "You spent 3-4 hours at the gym every day",
+          "timestamp": "2025-12-18T04:10:28.187Z",
+          "delay": 136.904731070895
+        },
+        {
+          "text": "To see John?",
+          "timestamp": "2025-12-18T04:10:35.076Z",
+          "delay": 143.7937950622968
+        },
+        {
+          "text": "What other way is there?",
+          "timestamp": "2025-12-18T04:10:39.671Z",
+          "delay": 148.3883582930931
+        },
+        {
+          "text": "Comfort? You betrayed me",
+          "timestamp": "2025-12-18T04:10:53.977Z",
+          "delay": 162.69492570684045
+        },
+        {
+          "text": "What about what I'm going through?",
+          "timestamp": "2025-12-18T04:11:05.368Z",
+          "delay": 174.08536623985282
+        },
+        {
+          "text": "Words mean nothing anymore",
+          "timestamp": "2025-12-18T04:11:19.717Z",
+          "delay": 188.4344575815839
+        },
+        {
+          "text": "You said that on our wedding day too",
+          "timestamp": "2025-12-18T04:11:29.166Z",
+          "delay": 197.88397577505322
+        },
+        {
+          "text": "Is it though?",
+          "timestamp": "2025-12-18T04:11:36.092Z",
+          "delay": 204.80915130277856
+        }
+      ]
+    },
+    {
+      "name": "John",
+      "messages": [
+        {
+          "text": "Hey, I heard you told him everything",
+          "timestamp": "2025-12-18T04:09:10.074Z",
+          "delay": 58.79131766646342
+        },
+        {
+          "text": "Why did you do that? We agreed to keep it private",
+          "timestamp": "2025-12-18T04:09:12.986Z",
+          "delay": 61.70378440429217
+        },
+        {
+          "text": "You're making a huge mistake. He's going to leave you",
+          "timestamp": "2025-12-18T04:09:19.089Z",
+          "delay": 67.80683498108121
+        },
+        {
+          "text": "No, we can work this out. Tell him it was just once",
+          "timestamp": "2025-12-18T04:09:23.523Z",
+          "delay": 72.24071333335505
+        }
+      ]
+    }
+  ],
+  "totalDuration": 204.80915130277856
+}

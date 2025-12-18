@@ -1,0 +1,94 @@
+{
+  "id": "story-title",
+  "title": "Story Title",
+  "conflict": "One sentence describing the core conflict",
+  "characters": [],
+  "conversations": [
+    {
+      "name": "Character Name 1",
+      "messages": [
+        {
+          "text": "First message they send",
+          "timestamp": "2025-12-18T04:08:14.619Z",
+          "delay": 3.339640553587273
+        },
+        {
+          "text": "Another message",
+          "timestamp": "2025-12-18T04:08:21.819Z",
+          "delay": 10.539651284471597
+        },
+        {
+          "text": "Message that reveals something",
+          "timestamp": "2025-12-18T04:08:24.527Z",
+          "delay": 13.247697893163837
+        }
+      ]
+    },
+    {
+      "name": "Character Name 2",
+      "messages": [
+        {
+          "text": "Response message",
+          "timestamp": "2025-12-18T04:08:16.973Z",
+          "delay": 5.693457868651613
+        },
+        {
+          "text": "Reaction to the reveal",
+          "timestamp": "2025-12-18T04:08:27.473Z",
+          "delay": 16.193291232877595
+        }
+      ]
+    },
+    {
+      "name": "4. Run",
+      "messages": [
+        {
+          "text": "`node scripts/convert-stories.js`",
+          "timestamp": "2025-12-18T04:08:31.408Z",
+          "delay": 20.128076165529833
+        }
+      ]
+    },
+    {
+      "name": "- **Conflicting perspectives**",
+      "messages": [
+        {
+          "text": "Different characters have contradictory versions of events",
+          "timestamp": "2025-12-18T04:08:34.052Z",
+          "delay": 22.77241170831193
+        }
+      ]
+    },
+    {
+      "name": "- **Hidden information**",
+      "messages": [
+        {
+          "text": "Readers discover something the characters don't know",
+          "timestamp": "2025-12-18T04:08:37.951Z",
+          "delay": 26.671355321480576
+        }
+      ]
+    },
+    {
+      "name": "- **Authentic details**",
+      "messages": [
+        {
+          "text": "Small specifics that make it feel real",
+          "timestamp": "2025-12-18T04:08:40.584Z",
+          "delay": 29.30468303329655
+        }
+      ]
+    },
+    {
+      "name": "- **Tension**",
+      "messages": [
+        {
+          "text": "Escalating stakes and uncomfortable truths",
+          "timestamp": "2025-12-18T04:08:45.165Z",
+          "delay": 33.885079786371996
+        }
+      ]
+    }
+  ],
+  "totalDuration": 33.885079786371996
+}

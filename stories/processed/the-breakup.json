@@ -1,0 +1,119 @@
+{
+  "id": "the-breakup",
+  "title": "The Breakup",
+  "conflict": "Alex discovers Jamie has been cheating and was never honest about their relationship",
+  "characters": [],
+  "conversations": [
+    {
+      "name": "Jamie",
+      "messages": [
+        {
+          "text": "Hey Alex... we need to talk",
+          "timestamp": "2025-12-18T04:08:15.570Z",
+          "delay": 4.288796601990215
+        },
+        {
+          "text": "I know you found out about Marcus",
+          "timestamp": "2025-12-18T04:08:20.550Z",
+          "delay": 9.268952146143802
+        },
+        {
+          "text": "I can explain everything",
+          "timestamp": "2025-12-18T04:08:24.363Z",
+          "delay": 13.081417213616511
+        },
+        {
+          "text": "Alex please. I can explain the situation with Marcus",
+          "timestamp": "2025-12-18T04:08:35.467Z",
+          "delay": 24.185643849438275
+        },
+        {
+          "text": "It only happened a few times",
+          "timestamp": "2025-12-18T04:08:38.268Z",
+          "delay": 26.98660955124934
+        },
+        {
+          "text": "I was just lonely while you were busy with work",
+          "timestamp": "2025-12-18T04:08:40.926Z",
+          "delay": 29.644774733173175
+        },
+        {
+          "text": "I know but... I panicked",
+          "timestamp": "2025-12-18T04:08:50.384Z",
+          "delay": 39.10295165875841
+        },
+        {
+          "text": "I love you, I swear this meant nothing",
+          "timestamp": "2025-12-18T04:08:57.417Z",
+          "delay": 46.135635075221685
+        },
+        {
+          "text": "It was just you!",
+          "timestamp": "2025-12-18T04:09:09.258Z",
+          "delay": 57.9766202476786
+        }
+      ]
+    },
+    {
+      "name": "Mom",
+      "messages": [
+        {
+          "text": "Honey, are you okay? Didn't hear from you all day",
+          "timestamp": "2025-12-18T04:08:26.388Z",
+          "delay": 15.10670665434703
+        },
+        {
+          "text": "Called Jamie and they said everything is fine",
+          "timestamp": "2025-12-18T04:08:29.454Z",
+          "delay": 18.17240328466268
+        },
+        {
+          "text": "You sure nothing's wrong?",
+          "timestamp": "2025-12-18T04:08:32.706Z",
+          "delay": 21.424677390943884
+        },
+        {
+          "text": "You know I never trusted Jamie. I tried to warn you about them",
+          "timestamp": "2025-12-18T04:08:55.209Z",
+          "delay": 43.927003991696985
+        },
+        {
+          "text": "Does Jamie at least feel bad? They should be apologizing",
+          "timestamp": "2025-12-18T04:09:14.084Z",
+          "delay": 62.8026317576113
+        }
+      ]
+    },
+    {
+      "name": "Marcus",
+      "messages": [
+        {
+          "text": "Dude, why did you tell them you were working late? We were literally at my place",
+          "timestamp": "2025-12-18T04:08:44.544Z",
+          "delay": 33.26299004225871
+        },
+        {
+          "text": "And you said they didn't care about you anymore",
+          "timestamp": "2025-12-18T04:08:47.869Z",
+          "delay": 36.58775945424408
+        },
+        {
+          "text": "Love them? You literally said they were controlling and paranoid",
+          "timestamp": "2025-12-18T04:09:02.012Z",
+          "delay": 50.73067703046215
+        },
+        {
+          "text": "You said you've been seeing other people for months",
+          "timestamp": "2025-12-18T04:09:04.321Z",
+          "delay": 53.0395068766467
+        },
+        {
+          "text": "Check your own messages man. You're lying to both of us",
+          "timestamp": "2025-12-18T04:09:11.757Z",
+          "delay": 60.475295042420065
+        }
+      ]
+    }
+  ],
+  "totalDuration": 62.8026317576113
+}
