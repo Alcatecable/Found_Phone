@@ -1,14 +1,3 @@
-export interface Contact {
-  id: string;
-  name: string;
-  avatar?: string;
-  initials: string;
-  color: string;
-  lastMessage?: string;
-  lastMessageTime?: string;
-  unreadCount?: number;
-}
-
 export interface Conversation {
   id: string;
   participantIds: string[];

@@ -1,14 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { ChatState, Message, Screen } from '../types';
 import { messages } from '../data/storyData';
-import { saveProgress, loadProgress, getInitialProgress } from '../utils/storage';
+import { saveProgress, loadProgress } from '../utils/storage';
 
 export const useStory = () => {
   const [state, setState] = useState<ChatState>(() => {
     const saved = loadProgress();
     return {
       currentScreen: 'lock' as Screen,
-      selectedContactId: null,
+      selectedConversationId: null,
       messages: [],
       deliveredMessages: new Set<string>(),
       isTyping: {},
@@ -48,20 +48,20 @@ export const useStory = () => {
     playNotificationSound();
   }, [playNotificationSound]);
 
-  const showTypingIndicator = useCallback((contactId: string, duration: number) => {
+  const showTypingIndicator = useCallback((conversationId: string, duration: number) => {
     setState(prev => ({
       ...prev,
-      isTyping: { ...prev.isTyping, [contactId]: true },
+      isTyping: { ...prev.isTyping, [conversationId]: true },
     }));
 
-    if (typingTimeoutRef.current[contactId]) {
-      clearTimeout(typingTimeoutRef.current[contactId]);
+    if (typingTimeoutRef.current[conversationId]) {
+      clearTimeout(typingTimeoutRef.current[conversationId]);
     }
 
-    typingTimeoutRef.current[contactId] = setTimeout(() => {
+    typingTimeoutRef.current[conversationId] = setTimeout(() => {
       setState(prev => ({
         ...prev,
-        isTyping: { ...prev.isTyping, [contactId]: false },
+        isTyping: { ...prev.isTyping, [conversationId]: false },
       }));
     }, duration);
   }, []);
@@ -82,7 +82,7 @@ export const useStory = () => {
           const typingDelay = elapsed - message.delay;
 
           if (typingDelay < 2000) {
-            showTypingIndicator(message.contactId, 2000);
+            showTypingIndicator(message.conversationId, 2000);
           }
 
           if (typingDelay >= 2000) {
@@ -143,11 +143,11 @@ export const useStory = () => {
     }));
   }, []);
 
-  const openChat = useCallback((contactId: string) => {
+  const openConversation = useCallback((conversationId: string) => {
     setState(prev => ({
       ...prev,
       currentScreen: 'chat',
-      selectedContactId: contactId,
+      selectedConversationId: conversationId,
     }));
   }, []);
 
@@ -155,7 +155,7 @@ export const useStory = () => {
     setState(prev => ({
       ...prev,
       currentScreen: prev.currentScreen === 'chat' ? 'contacts' : prev.currentScreen,
-      selectedContactId: null,
+      selectedConversationId: null,
     }));
   }, []);
 
@@ -177,7 +177,7 @@ export const useStory = () => {
   const restart = useCallback(() => {
     setState({
       currentScreen: 'lock',
-      selectedContactId: null,
+      selectedConversationId: null,
       messages: [],
       deliveredMessages: new Set<string>(),
       isTyping: {},
@@ -194,7 +194,7 @@ export const useStory = () => {
     state,
     actions: {
       unlock,
-      openChat,
+      openConversation,
       goBack,
       makeDecision,
       toggleAudio,

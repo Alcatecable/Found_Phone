@@ -34,16 +34,16 @@ function App() {
         <ContactList
           messages={state.messages}
           isTyping={state.isTyping}
-          onSelectContact={actions.openChat}
+          onSelectConversation={actions.openConversation}
           batteryLevel={state.batteryLevel}
         />
       )}
 
-      {state.currentScreen === 'chat' && state.selectedContactId && (
+      {state.currentScreen === 'chat' && state.selectedConversationId && (
         <ChatView
-          contactId={state.selectedContactId}
+          conversationId={state.selectedConversationId}
           messages={state.messages}
-          isTyping={state.isTyping[state.selectedContactId] || false}
+          isTyping={state.isTyping[state.selectedConversationId] || false}
           onBack={actions.goBack}
           batteryLevel={state.batteryLevel}
         />

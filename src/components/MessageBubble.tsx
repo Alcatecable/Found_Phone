@@ -1,18 +1,20 @@
 import { Check, CheckCheck } from 'lucide-react';
 import { Message } from '../types';
+import { phoneOwnerId } from '../data/storyData';
 
 interface MessageBubbleProps {
   message: Message;
 }
 
 export const MessageBubble = ({ message }: MessageBubbleProps) => {
-  const isOutgoing = message.isOutgoing;
+  const isOutgoing = message.senderId === phoneOwnerId;
 
   return (
     <div
       className={`flex items-start gap-2 mb-4 animate-slide-in ${
         isOutgoing ? 'flex-row-reverse' : 'flex-row'
       }`}
+      data-testid={`message-bubble-${message.id}`}
     >
       <div
         className={`rounded-lg px-4 py-2 shadow-sm max-w-[75%] ${
